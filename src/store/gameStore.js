@@ -57,3 +57,4 @@ export const useGameStore = create((set) => ({
     happiness: Math.min(100, state.happiness + (state.tracks.length * 2))
   }))
 }))
+
